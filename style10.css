@@ -1,0 +1,43 @@
+
+.link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  background-color: #005dd1;
+  color: white;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.1s ease;
+}
+
+.title::before {
+  content: "★ ";
+  color: gold;
+}
+
+.title::after {
+  content: " ★";
+  color: gold;
+}
+
+.description::first-line {
+  font-size: 200%;
+  font-weight: bold;
+  color: #0077ff;
+}
+
+.description::selection {
+  background-color: yellow;
+  color: black;
+}

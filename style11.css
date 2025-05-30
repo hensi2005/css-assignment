@@ -1,0 +1,46 @@
+
+:root {
+  --primary-bg: #0077ff;
+  --secondary-bg: #f2f4f7;
+  --text-color: #333;
+  --header-height: 80px;
+  --footer-height: 60px;
+  --padding: 1.5rem;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.site-header {
+  background-color: var(--primary-bg);
+  color: white;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding);
+}
+
+.site-main {
+  flex: 1;
+  background-color: var(--secondary-bg);
+  padding: var(--padding);
+}
+
+.site-footer {
+  background-color: var(--primary-bg);
+  color: white;
+  height: var(--footer-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

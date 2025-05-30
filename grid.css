@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #0c2a45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: 100px;
+  gap: 10px;
+}
+
+.item {
+  border-radius: 8px;
+}
+
+.item1 {
+  background-color: #2686d8;
+  grid-column: span 3;
+}
+
+.item2, .item3, .item4, .item6 {
+  background-color: #f4f4f4;
+}
+
+.item5 {
+  background-color: #9b2fae;
+  grid-column: span 2;
+}
