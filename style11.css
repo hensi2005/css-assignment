@@ -1,46 +1,66 @@
-
-:root {
-  --primary-bg: #0077ff;
-  --secondary-bg: #f2f4f7;
-  --text-color: #333;
-  --header-height: 80px;
-  --footer-height: 60px;
-  --padding: 1.5rem;
-  --font-family: 'Segoe UI', sans-serif;
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
 }
-
-
-body {
-  margin: 0;
-  font-family: var(--font-family);
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+header
+{
+    background-color: rgb(233, 233, 193);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
 }
-
-
-.site-header {
-  background-color: var(--primary-bg);
-  color: white;
-  height: var(--header-height);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding);
+header nav ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 30px;
+   font-size: 20px;
+   padding-left: 20px;
+   margin-left: 80px;
 }
-
-.site-main {
-  flex: 1;
-  background-color: var(--secondary-bg);
-  padding: var(--padding);
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
 }
+header nav a
+{
+    color: blue;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 32px;
+    border: 1px solid black;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(164, 164, 206);
+}
+p
+{
+    padding: 10px;
+}
+main
+{
+     display: block;
+     padding: 20px;
+}
+footer
+{
+    background-color: rgb(193, 190, 190);
+    color: white;
+    margin: auto;
+    padding: 20px;
+    color: black;
 
-.site-footer {
-  background-color: var(--primary-bg);
-  color: white;
-  height: var(--footer-height);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+:root{
+--primary-color: #007bff; /* Change to blue */
+    --secondary-color: #fff;
+    --background-color: #f2f2f2; /* Change to light gray */
+
 }
